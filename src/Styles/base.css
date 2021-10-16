@@ -1,0 +1,35 @@
+html {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+body {
+  margin: 0;
+}
+
+.main-container {
+  position: relative;
+  max-height: 1080px;
+  margin: auto;
+  width: 75%;
+  min-height: 400px;
+  height: 90vh;
+  padding: 25px;
+  border: 1px solid #f7941e;
+}
+
+.button {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  height: 2rem;
+  width: 9rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  background-color: #f7941e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
